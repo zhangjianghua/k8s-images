@@ -1,6 +1,5 @@
-FROM k8s.gcr.io/kube-apiserver:v1.14.1
-#FROM k8s.gcr.io/kube-apiserver:v1.14.1 
-#FROM k8s.gcr.io/kube-controller-manager:v1.14.1 
+#FROM k8s.gcr.io/kube-apiserver:v1.14.1
+FROM k8s.gcr.io/kube-controller-manager:v1.14.1 
 #FROM k8s.gcr.io/kube-scheduler:v1.14.1 
 #FROM k8s.gcr.io/kube-proxy:v1.14.1 
 #FROM k8s.gcr.io/pause:3.1 
