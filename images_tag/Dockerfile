@@ -1,7 +1,9 @@
 FROM k8s.gcr.io/kube-apiserver:v1.14.1
-#FROM k8s.gcr.io/kubernetes-dashboard-amd64:v1.8.3
-#FROM k8s.gcr.io/addon-resizer:1.8.2
-#FROM k8s.gcr.io/heapster-grafana-amd64:v4.4.3
-#FROM k8s.gcr.io/heapster-amd64:v1.6.0-beta.1
-#FROM k8s.gcr.io/heapster-influxdb-amd64:v1.3.3
+#FROM k8s.gcr.io/kube-apiserver:v1.14.1 
+#FROM k8s.gcr.io/kube-controller-manager:v1.14.1 
+#FROM k8s.gcr.io/kube-scheduler:v1.14.1 
+#FROM k8s.gcr.io/kube-proxy:v1.14.1 
+#FROM k8s.gcr.io/pause:3.1 
+#FROM k8s.gcr.io/etcd:3.3.10 
+#FROM k8s.gcr.io/coredns:1.3.1 
 
